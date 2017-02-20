@@ -1,0 +1,123 @@
+/* CSS Document */
+* {
+    box-sizing: border-box;
+	font-family: "Century Gothic";
+	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+	color: #4B088A;
+	text-align: center;
+}
+h2 {
+	margin-left: 15%;
+	color: gray;
+	text-align: center;
+}
+
+.header{
+	background-color: #D8CEF6;
+	padding:  3%;
+}
+
+
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+	
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: black;
+    color: #ffffff;
+	font-size: 18px;
+	font-style: bold;
+}
+
+.menu li:hover {
+    background-color: #D8CEF6;
+	background-repeat: no-repeat;
+	 -webkit-transform: rotate( 1deg);
+ 	-moz-transform: rotate(1deg); 
+	-o-transform: rotate(1deg);
+
+}
+
+.footer {
+	background-color:#99CCCC
+}
+
+.footer p {
+	font-size: 18px;
+	padding: 24px;
+}
+
+
+.texto{
+	margin-left:35%;
+	width: 40%;
+	font-size:12px;
+	color: gray;
+}
+
+/* galeria*/
+li {
+	font-size: 12px;
+}
+
+img {
+    margin: 5px;
+    width: 118px;
+	height: 201px;
+}
+
+.galery {
+	display: inline-block;
+}
+
+
+#galeria {
+	margin: auto;
+	margin-right:20%;
+}
+
+#galeria img{
+	-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+	-moz-transform:scale(0.8); /*Mozilla scale version*/
+	-o-transform:scale(0.8); /*Opera scale version*/
+	-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+	-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+	-o-transition-duration: 0.5s; /*Opera duration version*/
+	opacity: 0.7; /*initial opacity of images*/
+	margin: 0 10px 5px 0; /*margin between images*/
+}
+#galeria img:hover{
+	-webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+	-moz-transform:scale(1.1); /*Mozilla scale version*/
+	-o-transform:scale(1.1); /*Opera scale version*/
+	box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+	-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+	-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+	opacity: 1;
+}
+
+
+
